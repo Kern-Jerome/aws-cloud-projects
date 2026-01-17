@@ -1,24 +1,46 @@
-# Amazon S3 Static Website Hosting
+# Project: S3 Static Website Hosting
 
-## Objective
-Deploy a static website using Amazon S3 to understand object storage, access control, and basic cloud security.
+## Overview
 
-## Services Used
+Deployed a static website using Amazon S3, configured for public access, and secured using bucket policies and AWS best practices.
+
+## AWS Services Used
 - Amazon S3
-- AWS Identity and Access Management (IAM)
+- AWS IAM
+- AWS Access Management Console
 
 ## What I Did
-- Created an S3 bucket configured for static website hosting
-- Uploaded website files and validated public access
-- Configured bucket policies and permissions securely
-- Verified site accessibility via AWS-generated endpoint
-- Deleted resources to avoid unnecessary costs
 
-## Key Concepts Learned
-- Object storage vs traditional file systems
-- Public access control and security considerations
-- Shared Responsibility Model
-- Cost management best practices
+Created an S3 bucket configured for static website hosting
+
+Uploaded HTML and asset files
+
+Configured bucket permissions for public read access
+
+Applied a bucket policy following least-privilege principles
+
+Verified site accessibility using the S3 website endpoint
+
+## Key Concepts Demonstrated
+
+Object storage vs compute services
+
+Static website hosting in AWS
+
+IAM and S3 bucket policies
+
+Public access controls
+
+Cloud cost-efficient architecture
 
 ## Outcome
-Successfully hosted a static website using AWS infrastructure and demonstrated secure configuration and cleanup.
+
+Successfully hosted a publicly accessible static website using S3 with proper access controls and minimal cost.
+
+## What I Learned
+
+When to use S3 instead of EC2
+
+How AWS handles public access securely
+
+How permissions impact availability and security
